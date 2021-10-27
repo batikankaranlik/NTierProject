@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "HomePage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@Html.Raw(TempData["msg"])
+<h2>@DateTime.Now.ToShortDateString()</h2>
+<style>
+
+    .genislik {
+        width ="300";
+        height ="250";
+    }
+</style>
+@TempData["odeme"]
+<section class="wrapper">
+    <!-- page start-->
+    <section class="panel">
+        <header class="panel-heading">
+            Image Galley
+        </header>
+        <div class="panel-body">
+            <div>
+                <img src="~/Pictures/4477349.jpg" alt="img02" width="400" height="250"> <img style="padding-left:30px" src="~/Pictures/wepik-202191-23732.jpg" width="400" height="250" />
+                <img style="padding-left:30px" src="~/Pictures/xKS-1DP4g7A.jpg" width="400" height="250" /><img sstyle="padding-left:30px" src="~/Pictures/35973.jpg" width="400" height="250" />
+
+            </div>
+            <div style="padding-top:30px">
+
+                <img src="~/Pictures/L-sm1B4L1Ns.jpg" width="400" height="250" /><img style="padding-left:30px" src="~/Pictures/NK-N6coeI5Y.png" width="400" height="250" />
+                <img style="padding-left:30px" src="~/Pictures/5414861.jpg" width="400" height="250" /><img style="padding-left:30px" src="~/Pictures/uJ_GU9hwWgU.jpg" width="400" height="250" />
+                
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- page end-->
+</section>
+
+
