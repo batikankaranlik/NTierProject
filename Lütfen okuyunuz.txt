@@ -1,0 +1,27 @@
+-- Admin sadece kendi için olan admin tarafındaki sayfalarda iş yapabiliyor diğerlerine erişmek için çıkış yapılması lazım.diğerlerine tıklayınca hata verir
+
+---sağ yukarda profil ayarları vardır siparişler falan orda gözükür
+
+---şimdilik kargo durumu sadece sqlden değiştirilebiliyor
+
+--admin giriş
+Kullanıcı adı:BK
+şifre:123
+
+--member giriş
+Kullanıcı adı:dgk
+şifre:123
+
+
+--banka
+
+            CardUserName = "Batıkan Karanlık";
+           CardNumber = "1111 1111 1111 1111";
+            CardExpiryYear = 2022;
+            CardExpiryMonth = 12;
+            SecurityNumber = "222";
+            Limit = 40000;
+            Balance = 40000;
+            
+
+
